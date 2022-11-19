@@ -3,8 +3,8 @@ from cryptography.fernet import Fernet
 #os.chdir("E:\PythonForNetworking\Cryptography")
 
 Options = (input("Would you like to [encrypt] or [decrypt]? "))
-Options="Pizza"
 Options = Options.lower()
+
 while not (Options == str("encrypt")) and not (Options == (str("decrypt"))):
     print("Invalid Option")
     Options = (input("Would you like to [encrypt] or [decrypt]? "))
